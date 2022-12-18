@@ -1,0 +1,7 @@
+
+请各位同学将视频中接口域名：https://www.zhengzhicheng.cn  改为：https://www.uinav.com/ 进行请求
+
+
+例如请求轮播图数据时：https://www.uinav.com/api/public/v1/home/swiperdata
+
+获取分类数据是：https://www.uinav.com/api/public/v1/categories

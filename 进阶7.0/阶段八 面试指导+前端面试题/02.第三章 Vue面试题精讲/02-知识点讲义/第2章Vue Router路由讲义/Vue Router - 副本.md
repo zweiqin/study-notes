@@ -806,7 +806,7 @@ export function initUse (Vue: GlobalAPI) {
 
 `index.js`文件是用来创建`VueRouter`，`install.js`文件是关于`install`方法。
 
-<img src="E:\迅雷下载\sec\java全能学习面试手册\08-阶段八 面试指导+前端面试题\02.第三章 Vue面试题精讲\02-Vue核心知识点讲义\第2章Vue Router路由讲义\images\屏幕截图 2022-05-29 144436.png" alt="屏幕截图 2022-05-29 144436" style="zoom:80%;" />
+<img src="images\屏幕截图 2022-05-29 144436.png" alt="屏幕截图 2022-05-29 144436" style="zoom:80%;" />
 
 在`index.js`文件中：（后面要完善）
 

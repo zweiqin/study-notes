@@ -1,0 +1,26 @@
+小程序开发框架：
+MINA：原生的 微信小程序开发框架。
+Wepy：类vue语法的微信小程序开发框架。
+mpvue：19年就停止维护（现在已经烂掉了），（只）支持H5端和微信小程序端的类vue语法的 两端开发框架。
+Taro（国内，类React语法）：支持多端的类React语法的 多端开发框架。
+
+HybridApp开发框架：
+
+（基础框架）混合式App 打包工具（国外）：
+Cordova（只有一个Webview），PhoneGap，Intel XDK
+
+（开发平台）其它更出名的 （苹果的iOS 和 谷歌的安卓）的 混合式App 开发框架（国内）（云平台）（基于Cordova进行改进）（多个Webview）：
+DCloud（uniapp，多端开发框架，类Vue语法）、AppCan（移动云平台），ApiCloud（移动应用云）
+
+其它 原生应用 开发框架：
+React Native（原生编译框架，最早有，facebook的，类React语法，视图层封装了一套语法JSBridge，组件直接解析为原生组件），
+Weex（原生编译框架，阿里的，类Vue语法，视图层封装了一套语法JSBridge，组件直接解析为原生组件），
+NativeScript（原生编译框架，XML语法，视图层封装了一套语法JSBridge，组件直接解析为原生组件，已停止维护），
+Flutter（原生编译框架，组件直接解析为原生组件，谷歌的，Dart），
+Ionic（脚手架，包括相应的组件库、框架、脚手架，底层用的是Cordova，所以还要全局安装Cordova）
+
+
+在mac电脑，能运行vscode和Android Studio这两个编辑器；在Android Studio安装flutter插件之后，可以快速创建flutter项目，并启动iOS模拟器，在Android Studio安装了其它安卓模拟器之后，也可以启动安卓模拟器；在vscode安装flutter插件之后，可以快速创建flutter项目，并启动iOS模拟器，如果安装了安卓模拟器，则也可以启动安卓模拟器（在Debug处）。如果要在iOS真机上调试，则要有开发者账号，如果要在安卓真机上调试，则插上数据线即可。
+在windows电脑，能运行vscode和Android Studio这两个编辑器；在Android Studio安装flutter插件之后，可以快速创建flutter项目，但是在Android Studio（只）可以启动（发布和测试）安卓模拟器（如果有安装）；在vscode安装flutter插件之后，可以快速创建flutter项目，但是在vscode（只）可以启动安卓模拟器（如果有安装）（在Debug处）。
+开发安卓app，可以在Windows环境或mac环境下开发；开发iOS app只能在mac环境下开发。
+

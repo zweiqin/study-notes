@@ -1,0 +1,32 @@
+{
+  "name": "adhara_socket_io",
+  "version": "0.0.1",
+  "summary": "socket.io for flutter by adhara",
+  "description": "socket.io for flutter by adhara",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Socket.IO-Client-Swift": [
+
+    ],
+    "Starscream": [
+      "<= 3.0.5"
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  }
+}
