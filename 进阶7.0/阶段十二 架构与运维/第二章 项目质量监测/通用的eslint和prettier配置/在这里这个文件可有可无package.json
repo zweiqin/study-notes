@@ -1,0 +1,17 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getUserIP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^9.3.0"
+  }
+}
