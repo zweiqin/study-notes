@@ -555,7 +555,7 @@ Content-Type: text/html
 
 - **max-age=**[单位：秒 seconds]：设置缓存最大的有效时间，定义的是时间大小，而不是确定的时间点。
 
-- **s-maxage=**[单位：秒 seconds]：类似于 `max-age`，但是它只用于公享缓存（如proxy）。
+- **s-maxage=**[单位：秒 seconds]：类似于 `max-age`，但是它只用于共享缓存（如proxy）。
 
 - **public**：响应会被缓存，并且在多用户间共享，正常情况，如果要求 [HTTP 认证](http://baike.baidu.com/view/2076408.htm)，响应会自动设置为 private。
 

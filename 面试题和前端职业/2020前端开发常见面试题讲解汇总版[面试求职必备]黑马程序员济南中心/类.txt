@@ -1,0 +1,6 @@
+var a=5;class A{a=10};const b= new A();console.log(a)                                              //5
+var a=5;class A{constructor(){a=10}};const b= new A();console.log(a)                       //10
+var a=5;class A{a=10;sum(){console.log(this)}};const b= new A();b.sum()                  //A {a: 10}
+var a=5;class A{a=10;sum(){console.log(this)}};const b= new A().sum;b()                //undefined //严格模式，直接调用里面方法不会指向window
+var a=5;class A{a=10;sum(){console.log(this)}};const b= new A().sum;window.b()  //Uncaught TypeError: window.b is not a function
+var a=5;class A{a=10;sum(){console.log(this)}};var b= new A().sum;window.b()     //Window {window: Window, self: Window...}

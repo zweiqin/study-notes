@@ -38,13 +38,13 @@ console.log('main');
 
 **宏任务与微任务：**
 
-除了广义的同步任务和异步任务，JavaScript 单线程中的任务可以细分为（macrotask）和微任务(microtask)。
+除了广义的同步任务和异步任务，JavaScript 单线程中的任务可以细分为宏任务（macrotask）和微任务(microtask)。
 
 - 宏任务（macrotask）：script(整体代码), setTimeout, setInterval, setImmediate, I/O, UI rendering。
 
 - 微任务（microtask）：process.nextTick, Promise, Object.observe, MutationObserver。
 
-> 1. 宏任务进入主线程，执行过程中会收集微任务加入微任务队列。
+> 1. 宏任务进入主线程（这里指的是异步处理进程？），执行过程中会收集微任务加入微任务队列。
 > 2. 宏任务执行完成之后，立马执行微任务中的任务。微任务执行过程中将再次收集宏任务，并加入宏任务队列。
 > 3. 反复执行1，2步骤
 
