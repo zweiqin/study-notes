@@ -1440,7 +1440,7 @@ const toy = ref('小小')
 		<!-- <input type="text" :value="userName" @input="userName = (<HTMLInputElement>$event.target).value"> -->
 		<!-- 2、`v-model`用在组件标签上： -->
 		<!-- <AtguiguInput v-model="userName" /> -->
-		<!-- 组件标签上的`v-model`的本质是`:moldeValue`和`update:modelValue`事件 -->
+		<!-- 组件标签上的`v-model`的本质是`:modelValue`和`update:modelValue`事件 -->
 		<!-- <AtguiguInput :modelValue="userName" @update:modelValue="userName = $event" /> -->
 		<!-- 3、可以更换`value`，也可以在组件标签上多次使用`v-model` -->
 		<AtguiguInput v-model:ming="userName" v-model:mima="password" />
