@@ -257,7 +257,7 @@ FastAPI是一个现代后端Web框架，因构建REST API而广受欢迎。FastA
 
 1、类型提示。FastAPI利用Python类型提示，提高代码质量并简化API交互。
 
-2、自动文档。FastAPI根据类型提示自动为API生成OpenAPI（以前称为Swagger）文档。
+2、自动文档。FastAPI根据类型提示自动为API生成OpenAPI（以前称为Swagger）文档（交互式文档）。
 
 3、数据验证。FastAPI使用Pydantic进行数据验证，从而可以轻松验证请求和响应数据。
 
